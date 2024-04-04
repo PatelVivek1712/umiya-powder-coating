@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import "./CSS/Auth.css";
+import { useHistory } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGooglePlusG,
@@ -12,17 +11,16 @@ import Lottie from "react-lottie";
 import login_animation from "./Animations/login.json";
 import registration_animation from "./Animations/registration.json";
 
-const Auth = () => {
+export const Auth = () => {
   const [isSignUp, setIsSignUp] = useState(false);
-  const navigateTo = useNavigate();
+  const history = useHistory();
 
   const handleToggle = () => {
     setIsSignUp(!isSignUp);
   };
 
   const handleSignIn = () => {
-    // Redirect to NavBar page when signing in
-    navigateTo("/homepage");
+    history.push("/navbar");
   };
 
   useEffect(() => {
@@ -123,5 +121,3 @@ const Auth = () => {
     </div>
   );
 };
-
-export default Auth;
