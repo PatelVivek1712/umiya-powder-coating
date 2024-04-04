@@ -78,7 +78,7 @@ const Auth = () => {
           <div
             className={`toggle-panel toggle-left ${isSignUp ? "" : "hidden"}`}
           >
-            <h1>Welcome !</h1>
+            <h2>Already have an account?</h2>
             <Lottie
               options={{
                 loop: true,
@@ -95,18 +95,18 @@ const Auth = () => {
           <div
             className={`toggle-panel toggle-right ${isSignUp ? "hidden" : ""}`}
           >
-            <h1>Hello, Friend!</h1>
+            <h2>Don't have an account ?</h2>
             <Lottie
               options={{
                 loop: true,
                 autoplay: true,
                 animationData: registration_animation,
               }}
-              height={300}
-              width={300}
+              height={290}
+              width={290}
             />
             <button className="hidden" id="register" onClick={handleToggle}>
-              Sign Up
+              Click here to Sign Up
             </button>
           </div>
         </div>
