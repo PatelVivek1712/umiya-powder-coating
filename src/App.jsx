@@ -3,6 +3,8 @@ import Auth from "./components/Auth";
 import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
 import UserProfile from "./components/UserProfile";
+import AboutUs from "./components/AboutUs";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Route path="/navbar" element={<NavBar />} />
         <Route path="/homepage/*" element={<HomePage />} />
         <Route path="/UserProfile" element={<UserProfile/>}/>
+        <Route path="/AboutUs" element={<AboutUs/>}/>
       </Routes>
     </Router>
   );
