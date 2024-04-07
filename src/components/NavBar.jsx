@@ -39,6 +39,11 @@ function NavBar() {
               Contact Us
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/UserProfile" className="nav-link">
+              User Profile
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
