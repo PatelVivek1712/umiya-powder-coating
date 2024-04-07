@@ -9,7 +9,7 @@
   
   .container h1,
   .container h2 {
-    color: #8b5eec; /* Choose your desired color */
+    color: #8b5eec; 
   }
   
   .main-heading {
@@ -26,27 +26,27 @@
   
   .logo-container {
     background-color: black;
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
-    border-radius: 50%; /* Makes the container circular */
-    overflow: hidden; /* Ensures the image stays within the circle */
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
-    transition: transform 1s ease; /* Smooth transition for the zoom effect */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 1s ease; 
   }
   
   .logo {
-    max-width: 100%; /* Ensures the logo fills the container */
-    max-height: 100%; /* Ensures the logo fills the container */
+    max-width: 100%; 
+    max-height: 100%; 
   }
   
   .factory-details {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    transition: margin-left 1s ease; /* Smooth transition for the movement */
+    transition: margin-left 1s ease; 
 
   }
   
@@ -60,11 +60,11 @@
   }
   
   .logo-container:hover {
-    transform: scale(1.5); /* Zoom effect on hover */
+    transform: scale(1.5); 
   }
   
   .logo-container:hover + .factory-details {
-    margin-left: 5%; /* Adjust the margin as needed */
+    margin-left: 5%; 
   }
   @media screen and (max-width: 800px) and (max-height: 250px) {
     .container {

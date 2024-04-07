@@ -16,6 +16,7 @@ function NavBar() {
           <div className={`menu-line ${menuOpen ? "open" : ""}`} />
           <div className={`menu-line ${menuOpen ? "open" : ""}`} />
           <div className={`menu-line ${menuOpen ? "open" : ""}`} />
+          <div className={`menu-line ${menuOpen ? "open" : ""}`} />
         </div>
         <ul className={`navbar ${menuOpen ? "open" : ""}`}>
           {/* Use Link instead of <a> tag */}
@@ -25,13 +26,8 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">
+            <Link to="/AboutUs" className="nav-link">
               About Us
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/services" className="nav-link">
-              Services
             </Link>
           </li>
           <li className="nav-item">
