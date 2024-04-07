@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Auth />} />
         <Route path="/navbar" element={<NavBar />} />
         <Route path="/homepage/*" element={<HomePage />} />
+        <Route path="/UserProfile" element={<UserProfile/>}/>
       </Routes>
     </Router>
   );

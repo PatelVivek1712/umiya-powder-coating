@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f8f9fa; /* Light gray color */
+    background-color: #f8f9fa; 
     padding: 10px 0;
   }
   
@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #512da8; /* Purple color */
+    background-color: #512da8; 
   }
   
   .nav-item {
@@ -29,17 +29,17 @@
   
   .nav-link:hover,
   .nav-link:focus {
-    background-color: #f0eeef; /* Light gray color */
+    background-color: #f0eeef; 
   }
   
   .nav-item.disabled .nav-link {
-    color: #6c757d; /* Gray color */
+    color: #6c757d; 
     pointer-events: none;
   }
   
   /* Hamburger menu */
   .hamburger-menu {
-    display: none; /* Initially hide the hamburger menu */
+    display: none; 
   }
   
   .hamburger-icon {
@@ -56,10 +56,8 @@
     text-align: center;
     padding: 14px 16px;
     cursor: pointer;
-    /* Add additional styles for the custom icon if needed */
   }
   
-  /* Responsive styles */
   @media (max-width: 768px) {
     .navbar {
       display: none; 
